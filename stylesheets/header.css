@@ -1,0 +1,29 @@
+header {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  position: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 20px;
+}
