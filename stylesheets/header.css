@@ -7,6 +7,36 @@ header {
   justify-content: space-between;
 }
 
+.left-section .logo {
+  padding: 18px;
+  background-color: transparent;
+  border: none;
+}
+
+.left-section:hover .logo {
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  color: white;
+  display: flex;
+}
+
+.right-section .nav-link {
+  background-color: transparent;
+  padding: 18px;
+  border: none;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
 header h1 {
   margin: 0;
   padding: 10px;
