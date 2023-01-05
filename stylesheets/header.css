@@ -1,5 +1,5 @@
 header {
-  background-color: red;
+  background-color: black;
   color: rgb(255, 255, 255);
   padding: 20px;
   position: inherit;
@@ -27,6 +27,7 @@ header {
 }
 
 .right-section .nav-link {
+  color: white;
   background-color: transparent;
   padding: 18px;
   border: none;
@@ -35,6 +36,7 @@ header {
 .nav-link:hover {
   cursor: pointer;
   background-color: lightgrey;
+  color: black;
 }
 
 header h1 {
