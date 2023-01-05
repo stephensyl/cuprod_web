@@ -1,8 +1,6 @@
 header {
+  height: 55px;
   background-color: black;
-  color: rgb(255, 255, 255);
-  padding: 20px;
-  position: inherit;
   display: flex;
   justify-content: space-between;
 }
@@ -22,7 +20,7 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
-  color: white;
+  color: back;
   display: flex;
 }
 
@@ -39,7 +37,7 @@ header {
   color: black;
 }
 
-header h1 {
+/* header h1 {
   margin: 0;
   padding: 10px;
 }
@@ -58,4 +56,4 @@ nav a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px 20px;
-}
+} */

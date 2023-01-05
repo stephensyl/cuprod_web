@@ -4,6 +4,7 @@ const musicBtn = document.getElementById("musicBtn");
 const eventsBtn = document.getElementById("eventsBtn");
 const contactBtn = document.getElementById("contactBtn");
 const resourcesBtn = document.getElementById("resourcesBtn");
+const logoBtn = document.getElementById("logo");
 
 function addNavBtn(button, file) {
   button.addEventListener("click", function (e) {
@@ -15,5 +16,6 @@ addNavBtn(lineupBtn, "lineup_cmp.html");
 addNavBtn(aboutBtn, "about_cmp.html");
 addNavBtn(logoBtn, "index_cmp.html");
 addNavBtn(musicBtn, "music_cmp.html");
+addNavBtn(eventsBtn, "events_cmp.html");
 addNavBtn(contactBtn, "contact_cmp.html");
 addNavBtn(resourcesBtn, "resources_cmp.html");
