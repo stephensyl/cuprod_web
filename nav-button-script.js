@@ -6,9 +6,11 @@ const contactBtn = document.getElementById("contactBtn");
 const resourcesBtn = document.getElementById("resourcesBtn");
 const logoBtn = document.getElementById("logo");
 
+//debug this below... cant find out why it doesnt work
 function addNavBtn(button, file) {
   button.addEventListener("click", function (e) {
     location.href = file;
+    console.log("works");
   })
 }
 

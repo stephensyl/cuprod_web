@@ -2,8 +2,9 @@
 <html>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- script below doesn't work
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.6/dist/umd/popper.min.js"
-  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
   integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
@@ -15,12 +16,17 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
+    <div class="left-section">
+      <div class="logo">
+        logo
+      </div>
+    </div>
     <!-- The body and shinenigans of the website . Might also be the home page -->
-    <h1>
-      <center>Cornell Music Production</center>
-    </h1>
-    <nav>
+    <div class="middle-section">
+      Cornell Music Production
+    </div>
+    <div class="right-section">
       <button id="lineupBtn" type="button" class="nav-link">
         Lineup
       </button>
@@ -39,7 +45,7 @@
       <button id="resourcesBtn" type="button" class="nav-link">
         Resources
       </button>
-    </nav>
+    </div>
   </header>
   <main>
     <section>
@@ -50,7 +56,7 @@
         music production and technology. Our members come from a variety of backgrounds and interests,
         and we strive to create a
         supportive and inclusive community for anyone who loves music and technology.</p>
-      <center> <img src="C:\Users\Steph\OneDrive\Documents\cuprod_web\images\Joseph_gbdy.png" height="500" width="700"
+      <center> <img src="images/Joseph_gbdy.png" height="500" width="700"
           alt="Joseph Wolff teaching the club about composition in production">
       </center>
       <h2>
