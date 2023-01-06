@@ -7,7 +7,7 @@ body {
 main {
   padding: 20px;
   color: white;
-  background-image: url('images/music-producer-salary.jpg');
+  /* background-image: url('images/music-producer-salary.jpg'); */
   background-position-x: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 

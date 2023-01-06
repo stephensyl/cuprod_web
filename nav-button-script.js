@@ -14,10 +14,10 @@ function addNavBtn(button, file) {
   })
 }
 
-addNavBtn(lineupBtn, "lineup_cmp.html");
-addNavBtn(aboutBtn, "about_cmp.html");
-addNavBtn(logoBtn, "index_cmp.html");
-addNavBtn(musicBtn, "music_cmp.html");
-addNavBtn(eventsBtn, "events_cmp.html");
-addNavBtn(contactBtn, "contact_cmp.html");
-addNavBtn(resourcesBtn, "resources_cmp.html");
+addNavBtn(lineupBtn, "lineup.html");
+addNavBtn(aboutBtn, "about.html");
+addNavBtn(logoBtn, "index.html");
+addNavBtn(musicBtn, "music.html");
+addNavBtn(eventsBtn, "events.html");
+addNavBtn(contactBtn, "contact.html");
+addNavBtn(resourcesBtn, "resources.html");
