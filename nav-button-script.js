@@ -10,7 +10,6 @@ const logoBtn = document.getElementById("logoBtn");
 function addNavBtn(button, file) {
   button.addEventListener("click", function (e) {
     location.href = file;
-    console.log("works");
   })
 }
 
