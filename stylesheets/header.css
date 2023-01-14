@@ -1,14 +1,11 @@
-header {
-  height: 55px;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-}
-
 .left-section .logo {
-  padding: 18px;
+  padding: 10px;
   background-color: transparent;
-  border: none;
+  border: transparent;
+  height:fit-content;
+  width:fit-content;
+  display: block;
+
 }
 
 .left-section:hover .logo {
@@ -31,10 +28,25 @@ header {
   border: none;
 }
 
+.header.middle-section{
+font-display:initial;
+/* color: darkslategrey ; */
+}
 .nav-link:hover {
   cursor: pointer;
   background-color: lightgrey;
   color: black;
+}
+
+header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black
+  /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(nav_art.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: transparent*/
 }
 
 /* header h1 {
