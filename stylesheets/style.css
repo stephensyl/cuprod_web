@@ -1,25 +1,26 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 main {
   padding: 20px;
-  color: white;
-  /* background-image: url('images/music-producer-salary.jpg'); */
+  accent-color: darkslategrey;
+  background-color: #333;
+  /* background-image: url('images/music-producer-salary.jpg');
   background-position-x: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
 
 }
 
 section {
   margin-bottom: 25px;
   position: relative;
-  background-color: rgba(25, 25, 112, 0.3);
-  backdrop-filter: blur(3px);
-  background-blend-mode: color-burn;
-  background-size: 100px;
+  background-color: rgba(25, 25, 112, 0.5);
+  /* backdrop-filter: blur(3px);
+  background-blend-mode: color-burn; */
+  /* background-size: 100px; */
 }
 
 section h2 {
@@ -28,9 +29,9 @@ section h2 {
 }
 
 footer {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
-  padding: 20px 0;
+  padding: 10px;
   object-position: center;
 }
 
