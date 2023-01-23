@@ -37,12 +37,22 @@ font-display:initial;
   background-color: lightgrey;
   color: black;
 }
-
+.nav{
+  align-items: center;
+  gap: 10px;
+}
+.grid-container{
+  display:grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
 header {
   height: 55px;
   display: flex;
   justify-content: space-between;
-  background-color: black
+  background-color: black;
+  text-align: center;
+  text-size-adjust:inherit;
   /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(nav_art.jpg);
   background-position: center;
   background-size: cover;

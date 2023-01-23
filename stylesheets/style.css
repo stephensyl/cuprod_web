@@ -22,6 +22,12 @@ section {
   background-blend-mode: color-burn; */
   /* background-size: 100px; */
 }
+h1{
+  color: gainsboro ;
+  text-align: center;
+  text-size-adjust:inherit;
+  padding: 15px;
+}
 
 section h2 {
   color: #f7f7f7;
