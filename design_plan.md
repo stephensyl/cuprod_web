@@ -17,11 +17,14 @@ The Cornell Music Production Club Website aims to create an engaging and user-fr
 - Collect feedback from current club members and musicians.
   > This will be done once the website is fully finished
 - Research website design trends in the music industry.
-  
- > ![https://bandzoogle.com/help/articles/558-template-customization-guide-synth] Template with a good description of a simple template
- > ![https://www.worldhaus.org/home] Simple cohesive layout of header and easy to use
- > ![https://www.cremedecornell.net/] Wholesome and holistic webiste approach
- > All of these  are exmaples refrences and Ideas for what we plan for the website to be.
+
+## All of these  are exmaples refrences and Ideas for what we plan for the website to be
+
+ [Template with a good description of a simple template](https://bandzoogle.com/help/articles/558-template-customization-guide-synth)
+
+[Simple cohesive layout of header and easy to use](https://www.worldhaus.org/home)
+
+[Wholesome and holistic webiste approach](https://www.cremedecornell.net/)
 
 ## Step 2: Define Objectives and Scope
 
@@ -33,11 +36,13 @@ The Cornell Music Production Club Website aims to create an engaging and user-fr
 
 - Create a sitemap that organizes website pages and content logically.
 - Identify the main navigation menu and sub-navigation elements.
-- Plan the user flow from landing to conversion (e.g., membership signup, event registration).
+- Plan the user flow from home to finish (e.g., membership signup, event registration).
+
+![CMP website feature chart per page](images\Cmp_web_feature_chart.png)
 
 ## Step 4: Wireframing and Prototyping
 
-- Develop wireframes for essential pages (homepage, about, events, member profiles, etc.).
+- Develop sketches for essential pages (homepage, about, events, member profiles, etc.).
 - Consider responsive design for various devices (desktop, mobile, tablet).
 - Create interactive prototypes to test user interactions and flows.
 
