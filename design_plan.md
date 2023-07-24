@@ -44,13 +44,15 @@ The Cornell Music Production Club Website aims to create an engaging and user-fr
 
 - Develop sketches for essential pages (homepage, about, events, member profiles, etc.).
 - Consider responsive design for various devices (desktop, mobile, tablet).
-- Create interactive prototypes to test user interactions and flows.
 
 ## Step 5: Visual Design
 
 - Design a style guide for the website, including colors, typography, and imagery.
+  > We are inspired to use Cornell Colors for the website but we also want to integrate an impressive presentation that holds the attention of our audience when they open iur website. Perhaps we utilize interesting fonts and add more graphics once we have a basic idea of the website.
 - Develop mockups for all key pages, adhering to the style guide.
+  > Once we have all the information we need for each page we will load them up as basic as possible and make the interactive as well.
 - Ensure the design reflects the club's identity and appeals to the target audience.
+  > Presering an sophisticated demanor as well as impressive design the club identiy will hold up to be inviting, entertaining and engaging.
 
 ## Step 6: Content Creation
 
