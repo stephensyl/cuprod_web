@@ -30,7 +30,7 @@
 
 .header.middle-section{
 font-display:initial;
-/* color: darkslategrey ; */
+color: rgb(255, 255, 255) ;
 }
 .nav-link:hover {
   cursor: pointer;

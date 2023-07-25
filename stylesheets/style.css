@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  padding: 20px;
+  padding: 2px;
   accent-color: darkslategrey;
   background-color: #333;
   /* background-image: url('images/music-producer-salary.jpg');
@@ -14,10 +14,15 @@ main {
 
 }
 
+.middle-section h2{
+  font-size: 1rem;
+  color: white;
+}
+
 section {
   margin-bottom: 25px;
   position: relative;
-  background-color: rgba(25, 25, 112, 0.5);
+  /* background-color: rgba(25, 25, 112, 0.5); */
   /* backdrop-filter: blur(3px);
   background-blend-mode: color-burn; */
   /* background-size: 100px; */
