@@ -1,18 +1,19 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
-  padding: 0px;
-}
+  padding: 0px;}
 
 main {
   padding: 2px;
   accent-color: darkslategrey;
   background-color: #333;
-  /* background-image: url('images/music-producer-salary.jpg');
-  background-position-x: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 
 }
+
 
 .middle-section h2{
   font-size: 1rem;
@@ -21,11 +22,6 @@ main {
 
 section {
   margin-bottom: 25px;
-  position: relative;
-  /* background-color: rgba(25, 25, 112, 0.5); */
-  /* backdrop-filter: blur(3px);
-  background-blend-mode: color-burn; */
-  /* background-size: 100px; */
 }
 h1{
   color: gainsboro ;
@@ -87,3 +83,14 @@ footer a:hover {
 }
 
 /* Responsive website design for mobile devices */
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  margin{
+    padding: 10px; 
+    font-size: 14px; 
+  }
+}
