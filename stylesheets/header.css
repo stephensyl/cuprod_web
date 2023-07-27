@@ -55,6 +55,9 @@ header {
   text-size-adjust:inherit;
 
 }
+main{
+  padding: 5px;
+}
 
 /* respnosive navbar */
 @media screen and (max-width: 800px) {
