@@ -27,13 +27,17 @@
   background-color: transparent;
   padding: 18px;
   border: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
 }
 
 .middle-section{
 display: flex;
 align-items: center;
 font-display:initial;
-color: rgb(255, 255, 255) ;
+font-family: 'Bebas Neue', sans-serif;
+color: rgb(251, 43, 43) ;
+font-size: 20px;
 
 }
 .nav-link:hover {
