@@ -111,20 +111,19 @@ a.cta-button:hover {
 .arrow-icon {
     height: 2.8em;
     width: 2.8em;
-    display: block;
     padding: 0.5em;
-    margin: 1em auto;
-    position: relative;
+    position: sticky;
     cursor: pointer;
     border-radius: 4px;
+    background-color: #333;
 }
 
 .left-bar {
     position: absolute;
-    background-color: transparent;
-    top: 0;
-    left: 0;
-    width: 40px;
+    background-color: #f5f5f5;
+    top: 22px;
+    left: 1px;
+    width: 36px;
     height: 10px;
     display: block;
     transform: rotate(35deg);
@@ -132,25 +131,14 @@ a.cta-button:hover {
     border-radius: 2px;
     transition-duration: 0.8s;
     transition-property: transform;
-    &:after {
-        content: "";
-        background-color: rgb(0, 0, 0);
-        width: 40px;
-        height: 10px;
-        display: block;
-        float: right;
-        border-radius: 6px 10px 10px 6px;
-        transition: all 0.5 cubic-bezier(.25, 1.7, .35, .8);
-        z-index: -1;
-    }
 }
 
 .right-bar {
     position: absolute;
-    background-color: transparent;
-    top: 0px;
-    left: 26px;
-    width: 40px;
+    background-color: #f5f5f5;
+    top: 22px;
+    left: 25px;
+    width: 36px;
     height: 10px;
     display: block;
     transform: rotate(-35deg);
@@ -158,17 +146,6 @@ a.cta-button:hover {
     border-radius: 2px;
     transition-duration: 0.8s;
     transition-property: transform;
-    &:after {
-        content: "";
-        background-color: rgb(0, 0, 0);
-        width: 40px;
-        height: 10px;
-        display: block;
-        float: right;
-        border-radius: 10px 6px 6px 10px;
-        transition: all 0.5 cubic-bezier(.25, 1.7, .35, .8);
-        z-index: -1;
-    }
 }
 
 .arrow-icon:hover {
