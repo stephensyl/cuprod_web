@@ -52,6 +52,9 @@ p {
 }
 
 
+/* logo */
+
+
 /* CSS for image hover effect */
 
 #Album img {
@@ -111,16 +114,17 @@ a.cta-button:hover {
 .arrow-icon {
     height: 2.8em;
     width: 2.8em;
+    display: block;
     padding: 0.5em;
+    margin: 1em auto;
     position: sticky;
     cursor: pointer;
     border-radius: 4px;
-    background-color: #333;
 }
 
 .left-bar {
     position: absolute;
-    background-color: #f5f5f5;
+    background-color: #333;
     top: 22px;
     left: 1px;
     width: 36px;
@@ -135,7 +139,7 @@ a.cta-button:hover {
 
 .right-bar {
     position: absolute;
-    background-color: #f5f5f5;
+    background-color: #333;
     top: 22px;
     left: 25px;
     width: 36px;
