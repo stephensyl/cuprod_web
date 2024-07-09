@@ -12,6 +12,6 @@ Collaboration with genre-specific artists
 
 Domain Name:Cornellmusicproduction.com (going for $12 a year)
 
-Standard Website Features: About the officers page, Contact us
+Standard Website Features: About the officers page, Contact us and more
 
 What we might need to integrate on our website:Instagram following integration and Embedding soundcloud/spotify
