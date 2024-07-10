@@ -26,6 +26,6 @@
 </body>
 
 <?php include 'includes/footer.php';?>
-<script src="nav-button-script.js"></script>
+<script src="js/nav-button-script.js"></script>
 
 </html>
