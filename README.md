@@ -1,6 +1,6 @@
-# cuprod_web
+# Cornell music production Website creation
 Making a website for Music Production
-#Authors: James Koga, Stephen Syl-Akinwale and Anthony Lall Lewis
+#Authors: James Koga, Stephen Syl-Akinwale, and Anthony Lall Lewis
 
 Our Website provides:Resources such as sample packs, links to tutorials and helpful Information about our meetings
 Media ex. : members beats (embed SoundCloud/spotify), Beat battle challenges (promotion)
