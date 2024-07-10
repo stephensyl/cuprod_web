@@ -11,7 +11,7 @@ Link to our discord
 Collaboration with genre-specific artists
 
 Domain Name:Cornellmusicproduction.com (going for $12 a year)
-
+initially developed in html and now is dynamic with php
 Standard Website Features: About the officers page, Contact us and more
 
 What we might need to integrate on our website:Instagram following integration and Embedding soundcloud/spotify
