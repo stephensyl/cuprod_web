@@ -21,6 +21,10 @@ jobs:
       - name: Run PHP script to generate static files
         run: php generate_static_files.php
 
+      - name: Replace PHP references with HTML in JS files
+        run: |
+          find js -type f -name '*.js' -exec sed -i 's/\.php/\.html/g' {} +
+
       - name: Copy CSS, JS, Images, and CNAME file to static directory
         run: |
           mkdir -p static/stylesheets static/images static/js
