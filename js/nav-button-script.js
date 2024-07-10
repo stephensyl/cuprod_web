@@ -13,10 +13,10 @@ function addNavBtn(button, file) {
     })
 }
 
-addNavBtn(lineupBtn, "lineup.php");
-addNavBtn(aboutBtn, "about.php");
-addNavBtn(logoBtn, "index.php");
-addNavBtn(musicBtn, "music.php");
-addNavBtn(eventsBtn, "events.php");
-addNavBtn(contactBtn, "contact.php");
-addNavBtn(resourcesBtn, "resources.php");
+addNavBtn(lineupBtn, "lineup.html");
+addNavBtn(aboutBtn, "about.html");
+addNavBtn(logoBtn, "index.html");
+addNavBtn(musicBtn, "music.html");
+addNavBtn(eventsBtn, "events.html");
+addNavBtn(contactBtn, "contact.html");
+addNavBtn(resourcesBtn, "resources.html");
