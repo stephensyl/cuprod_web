@@ -10,23 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: 7.4
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.4
 
-    - name: Run PHP script to generate static files
-      run: php generate_static_files.php
+      - name: Run PHP script to generate static files
+        run: php generate_static_files.php
 
-    - name: List static directory contents
-      run: ls -la ./static
+      - name: Copy CSS and JS files to static directory
+        run: |
+          mkdir -p static/stylesheets static/images
+          cp -R stylesheets/* static/stylesheets/
+          cp -R images/* static/images/
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./static
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./static
