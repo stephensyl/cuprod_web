@@ -5,16 +5,28 @@
     position: absolute;
     top: -15px;
     left: 8px;
-
+    transition: filter 0.4s;
 }
 
 .left-section:hover .logo {
     cursor: pointer;
 }
 
+
+@keyframes randomHueRotate {
+    0% { filter: hue-rotate(0deg); }
+    12.5% { filter: hue-rotate(45deg); }
+    25% { filter: hue-rotate(90deg); }
+    37.5% { filter: hue-rotate(135deg); }
+    50% { filter: hue-rotate(180deg); }
+    62.5% { filter: hue-rotate(225deg); }
+    75% { filter: hue-rotate(270deg); }
+    87.5% { filter: hue-rotate(315deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
 .left-section .logo:hover img {
-    transition: filter 0.3s;
-    filter: sepia(100%);
+    animation: randomHueRotate 3s infinite;
 }
 
 .right-section {
