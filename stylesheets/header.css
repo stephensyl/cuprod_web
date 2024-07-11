@@ -1,11 +1,11 @@
 .left-section .logo img {
-    max-height: 55px;
+    max-height: 100px;
     width: auto;
     height: auto;
     position: absolute;
-    top: 8px;
+    top: -15px;
     left: 8px;
-    filter: invert(100%);
+
 }
 
 .left-section:hover .logo {
@@ -13,7 +13,8 @@
 }
 
 .left-section .logo:hover img {
-    filter: invert(0%);
+    transition: filter 0.3s;
+    filter: sepia(100%);
 }
 
 .right-section {

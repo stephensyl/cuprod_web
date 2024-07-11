@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cornell Music Production</title>
-    <link rel="icon" type="image/png" href="images/cmp_logo.png">
+    <link rel="icon" type="image/png" href="images/new_tp_logo.PNG">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
     <header>
         <div class="left-section">
             <div class="logo" id="logoBtn">
-                <img src="images/cmp_logo.jpg" alt="Cornell Music Production Logo">
+                <img src="images/new_tp_logo.PNG" alt="Cornell Music Production Logo">
             </div>
         </div>
         <div class="middle-section">
