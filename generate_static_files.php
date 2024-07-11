@@ -14,10 +14,28 @@ function captureOutput($file) {
     return ob_get_clean();
 }
 
+// Function to convert .php to .html in HTML content
+function convertPhpToHtml($content) {
+    // Regular expression to match .php and not within include statements
+    $pattern = '/(?<!include\s+[\'"])[^\/\.\'\"]+\.php/';
+    $replacement = '.html';
+    
+    // Perform the replacement
+    $content = preg_replace_callback($pattern, function($matches) use ($replacement) {
+        return str_replace('.php', $replacement, $matches[0]);
+    }, $content);
+
+    return $content;
+}
+
 // Function to create static file with captured output
 function createStaticFile($phpFile, $htmlFile) {
     global $staticDir;
     $content = captureOutput($phpFile);
+    
+    // Convert .php to .html in the captured content
+    $content = convertPhpToHtml($content);
+
     $fullPath = $staticDir . '/' . $htmlFile;
 
     if (file_put_contents($fullPath, $content) === false) {
@@ -49,4 +67,3 @@ foreach ($filesToConvert as $phpFile => $htmlFile) {
 }
 
 echo "Static files generated successfully.\n";
-
