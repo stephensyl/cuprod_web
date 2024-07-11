@@ -14,31 +14,35 @@ function captureOutput($file) {
     return ob_get_clean();
 }
 
-// Function to convert .php to .html in HTML content
-function convertPhpToHtml($content) {
-    // Regular expression to match .php and not within include statements
-    $pattern = '/(?<!include\s+[\'"])[^\/\.\'\"]+\.php/';
-    $replacement = '.html';
-    
-    // Perform the replacement
-    $content = preg_replace_callback($pattern, function($matches) use ($replacement) {
-        return str_replace('.php', $replacement, $matches[0]);
-    }, $content);
+// Function to process includes and replace hrefs
+function processContent($content) {
+    // Replace include statements with actual content
+    $patternInclude = '/<\?php\s+include\s*[\'"](.*?)[\'"]\s*;\s*\?>/';
+    while (preg_match($patternInclude, $content, $matches)) {
+        $includeFile = $matches[1];
+        if (file_exists($includeFile)) {
+            $includeContent = captureOutput($includeFile);
+            $content = str_replace($matches[0], $includeContent, $content);
+        } else {
+            $content = str_replace($matches[0], '', $content);
+        }
+    }
+
+    // Replace hrefs linking to PHP files with HTML files
+    $patternHref = '/href=["\']([^"\']+)\.php["\']/';
+    $content = preg_replace($patternHref, 'href="$1.html"', $content);
 
     return $content;
 }
 
-// Function to create static file with captured output
+// Function to create static file with processed content
 function createStaticFile($phpFile, $htmlFile) {
     global $staticDir;
     $content = captureOutput($phpFile);
-    
-    // Convert .php to .html in the captured content
-    $content = convertPhpToHtml($content);
-
+    $processedContent = processContent($content);
     $fullPath = $staticDir . '/' . $htmlFile;
 
-    if (file_put_contents($fullPath, $content) === false) {
+    if (file_put_contents($fullPath, $processedContent) === false) {
         echo "Failed to write to $fullPath\n";
     } else {
         echo "Successfully wrote to $fullPath\n";
