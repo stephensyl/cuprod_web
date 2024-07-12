@@ -7,6 +7,7 @@
     <title>Cornell Music Production</title>
     <link rel="icon" type="image/png" href="images/new_tp_logo.PNG">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/swiper.css">
     <link rel="stylesheet" href="stylesheets/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
