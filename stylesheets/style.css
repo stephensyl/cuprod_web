@@ -261,12 +261,87 @@ form button:hover {
 /* Responsive website design for mobile devices */
 
 @media screen and (max-width: 800px) {
-    body {
-        margin: 0;
-        padding: 0;
+    header {
+        display: flex;
+        height: 55px;
+        justify-content: space-between;
     }
-    margin {
+
+    .left-section .logo {
+        display: flex;
+        max-height: auto;
+        max-width: auto;
+        justify-self: center;
+    }
+
+    .middle-section {
+        display: none;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #albumtitle {
+        font-size: 60px;
+    }
+
+    #albuminfo {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card {
+        width: calc(100% - 40px);
+    }
+
+    .resource-container {
+        width: 100%;
+    }
+
+    .links {
         padding: 10px;
+    }
+
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #albumtitle {
+        font-size: 40px;
+    }
+
+    #albuminfo {
         font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card {
+        width: calc(100% - 20px);
+    }
+
+    .resource-container {
+        padding: 10px;
+    }
+
+    .links {
+        padding: 5px;
+    }
+
+    .cta-button {
+        padding: 10px;
+    }
+
+    form input, form textarea, form button {
+        padding: 8px;
     }
 }
