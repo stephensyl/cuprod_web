@@ -39,6 +39,16 @@
         setting where members can network, exchange ideas, and find potential collaborators for their projects.
         The events often feature live performances,listening sessions, team mentor games and beat battles.</p>
 
+        <div id="socials">
+
+<p> Some of Our Socials</p>
+<img src="images/DSC09308.JPG" alt="" height="320">
+<img src="images/cmpgroup2.jpg" alt="" height="320">
+<img src="images/Joseph_gbdy.png" alt="" height="320">
+
+
+</div>
+
     <h1 id="albumtitle">Moments in the Studio</h1>
     <p>One of the club's standout initiatives is "Moments in the Studio," a series of sessions where members can work
         together
@@ -50,6 +60,15 @@
         constructive feedback and support from their peers.
 
     </p>
+    <div id="studiopics">
+
+<p> Some of Our Favorite studio moments</p>
+<img src="images/DSC09308.JPG" alt="" height="320">
+<img src="images/cmpgroup2.jpg" alt="" height="320">
+<img src="images/Joseph_gbdy.png" alt="" height="320">
+
+
+</div>
 
     <h1 id="albumtitle">Annual Album Release Party</h1>
     <p>The Annual Album Release Party is the highlight of the Club Cornell Music Production calendar. Each year, the
@@ -60,7 +79,16 @@
         highlighting the club's commitment to nurturing musical talent and creativity. The Annual Album Release Party is
         not just about celebrating the finished product, but also about recognizing the hard work, dedication, and
         collaboration that went into its creation.</p>
+        
+<div id="releasepics">
 
+<p> Our Annual Album Party</p>
+<img src="images/DSC09308.JPG" alt="" height="320">
+<img src="images/cmpgroup2.jpg" alt="" height="320">
+<img src="images/Joseph_gbdy.png" alt="" height="320">
+
+
+</div>
 
 
     <h1 id="albumtitle">Join Us for Our Next Event</h1>
