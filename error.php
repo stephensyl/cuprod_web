@@ -37,9 +37,17 @@
     </header>
 
 <script src="js/nav-button-script.js"></script>
+
 <body>
     <main>
 
+
+        <h1 class="error-text"> Sorry, We are still working on that</h1>
+
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <div id="error-icon">
+            <lord-icon src="https://cdn.lordicon.com/akqsdstj.json" trigger="hover" state="hover-enlarge" style="width:250px;height:250px">
+        </lord-icon></div>
     </main>
     <footer>
         <div class="container">
@@ -66,5 +74,6 @@
                 <a href="https://lordicon.com/" class="footer-link">Icons by Lordicon.com</a>
         </div>
     </footer></body>
-<script src="nav-button-script.js"></script>
+<script src="js/nav-button-script.js"></script>
+
 </html>

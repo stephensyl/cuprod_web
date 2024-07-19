@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
@@ -52,6 +52,105 @@ p {
 }
 
 
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links a img {
+    transition: transform 0.3s ease;
+}
+
+.links a img:hover {
+    transform: scale(1.1);
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arrow-icon {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.left-bar, .right-bar {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 20px;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.left-bar {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.right-bar {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.arrow-icon:hover .left-bar {
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.arrow-icon:hover .right-bar {
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        margin-top: 40px;
+    }
+}
 /* CSS for image hover effect */
 
 #Album img {
@@ -85,9 +184,23 @@ a.cta-button {
 a.cta-button:hover {
     background-color: #555;
 }
+/* error page */
 
+.error-text{
+
+    color:red;
+    font-size: 75px;
+}
+
+#error-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:transparent;
+}
 
 /* Cards for resource page styling */
+
 
 .resource-container{
     width: 80%;
@@ -190,7 +303,7 @@ form button:hover {
     padding: 10px;
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -216,7 +329,7 @@ form button:hover {
 
 .left-bar {
     position: absolute;
-    background-color: #333;
+    background-color: #ffffff;
     top: 22px;
     left: 1px;
     width: 36px;
@@ -231,7 +344,7 @@ form button:hover {
 
 .right-bar {
     position: absolute;
-    background-color: #333;
+    background-color: #ffffff;
     top: 22px;
     left: 25px;
     width: 36px;
@@ -257,6 +370,18 @@ form button:hover {
     }
 }
 
+a.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+a.footer-link:hover {
+    color: #bbb;
+}
 
 /* Responsive website design for mobile devices */
 
