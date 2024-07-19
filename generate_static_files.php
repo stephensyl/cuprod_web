@@ -60,7 +60,7 @@ $filesToConvert = [
     'resources.php' => 'resources.html',
     'footer.php' => 'footer.html',
     'header.php' => 'header.html',
-    'error.php' => 'error.php'
+    'error.php' => 'error.html'
 ];
 
 foreach ($filesToConvert as $phpFile => $htmlFile) {
