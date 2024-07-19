@@ -2,41 +2,49 @@
 
 <body>
 
-<div class="resource-container">
+<div id="albumtitle">
         <h1>Resources for Music Production and Singing</h1>
+        <p>Welcome to the Cornell Music Production Club Resource Page! 
+            This page serves as a comprehensive guide for our members and anyone interested in music production and singing. 
+            Whether you're just starting out or looking to refine your skills, 
+            you'll find valuable information and resources here to help you on your musical journey. Below are the sections and resources we offer</p>
         
         <!-- CMP DAW Tutorials Section -->
         <section id="daw-tutorials">
-            <h2>CMP DAW Tutorials on YouTube</h2>
-            <p>Discover our comprehensive tutorials on various DAWs, available on our YouTube channel.</p>
-            <div class="card-container">
-                <div class="card">
-                    <h3>DAW Tutorial 1</h3>
-                    <a href="https://youtube.com/link-to-tutorial-1">Watch on YouTube</a>
-                    <!-- Include a thumbnail or preview image if available -->
-                </div>
-                <div class="card">
-                    <h3>DAW Tutorial 2</h3>
-                    <a href="https://youtube.com/link-to-tutorial-2">Watch on YouTube</a>
-                    <!-- Include a thumbnail or preview image if available -->
-                </div>
-                <!-- Add more cards as needed -->
-            </div>
-        </section>
+    <h2>CMP DAW Tutorials on YouTube</h2>
+    <p>Explore our curated list of Digital Audio Workstation (DAW) tutorials available on YouTube. 
+        These tutorials cover a range of topics from beginner basics to advanced production techniques. 
+        Each tutorial is presented as a card with a brief description and a link to the video. 
+        Dive in and start mastering your DAW of choice!</p>
+    <div class="card-container">
+        <div class="card">
+            <h3>FL Studio Tutorial</h3>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/myO2o6Gcodo" 
+                title="FL Studio Tutorial" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        </div>
+        <div class="card">
+            <h3>Logic Tutorial</h3>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/K3WR9qnivqY" 
+                title="Logic Tutorial" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+</section>
         
         <!-- Drum Kit Resources Section -->
         <section id="drum-kits">
             <h2>Drum Kit Resources</h2>
-            <p>Explore a variety of drum kits to enhance your music production.</p>
+            <p>Discover a variety of drum kits that can enhance your music production. 
+                From classic sounds to modern beats, our recommended drum kits are perfect for any genre. 
+                Each drum kit is showcased as a card with details on where to find them and how to use them in your productions.</p>
             <div class="card-container">
                 <div class="card">
                     <h3>Drum Kit 1</h3>
-                    <a href="link-to-drum-kit-1">Download</a>
-                    <!-- Include a thumbnail or preview image if available -->
-                </div>
-                <div class="card">
-                    <h3>Drum Kit 2</h3>
-                    <a href="link-to-drum-kit-2">Download</a>
+                    <a href="error.php">Coming Soon</a>
                     <!-- Include a thumbnail or preview image if available -->
                 </div>
                 <!-- Add more cards as needed -->
@@ -119,24 +127,6 @@
             </div>
         </section>
         
-        <!-- Blog Posts Section -->
-        <section id="blog-posts">
-            <h2>Blog Posts: Q & A with Professionals</h2>
-            <p>Read insightful blog posts featuring Q&A sessions with industry professionals and learners.</p>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Blog Post 1</h3>
-                    <a href="link-to-blog-post-1">Read More</a>
-                    <!-- Include a thumbnail or preview image if available -->
-                </div>
-                <div class="card">
-                    <h3>Blog Post 2</h3>
-                    <a href="link-to-blog-post-2">Read More</a>
-                    <!-- Include a thumbnail or preview image if available -->
-                </div>
-                <!-- Add more cards as needed -->
-            </div>
-        </section>
         
         <!-- Suggest a Resource Section -->
         <section id="suggest-resource">

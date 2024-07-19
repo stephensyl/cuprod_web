@@ -20,7 +20,9 @@ The Cornell Music Production Club Website aims to create an engaging and user-fr
 
 ## All of these  are exmaples refrences and Ideas for what we plan for the website to be
 
- [Template with a good description of a simple template](https://bandzoogle.com/help/articles/558-template-customization-guide-synth)
+[slider inspiration](https://stackoverflow.com/questions/66275685/how-to-create-a-swiper-js-html-css-carousel-with-blurred-non-focused-elements)
+
+[Template with a good description of a simple template](https://bandzoogle.com/help/articles/558-template-customization-guide-synth)
 
 [Simple cohesive layout of header and easy to use](https://www.worldhaus.org/home)
 
