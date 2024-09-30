@@ -19,7 +19,7 @@
     display: -ms-flexbox; */
     /* display: -webkit-flex; */
     display: flex;
-    wrap: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -90,6 +90,42 @@
 .swiper-button-prev:after {
   font-size: 18px;
 } */
+
+.swiper-slide-3d {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform-origin: center center;
+  opacity: 0.5; /* Default opacity for non-focused slides */
+}
+
+.swiper-slide-3d-active {
+  transform: none; /* No perspective warp on the active slide */
+  opacity: 1; /* Full opacity for the focused slide */
+}
+
+.artist-card {
+  position: relative;
+  text-align: center;
+}
+
+.artist-card #bio,
+.artist-card .streaming-link {
+  display: none; /* Hidden by default */
+}
+
+.artist-card .show-more {
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.swiper-container-3d .swiper-wrapper {
+  padding: 8px;
+  gap: 5px;
+}
 
 /* Override Swiper pagination styles */
 .swiper-horizontal > .swiper-pagination-bullets,
