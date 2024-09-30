@@ -95,6 +95,19 @@
             </div>
         </section>
 
+        <!-- CMP Workshop Slides -->
+        <section id="cmp-slides">
+            <h3>CMP-Workshop</h3>
+            <p>Download and look at our workshop slides.</p>
+            <div class="card-container">
+                <div class="card">
+                <h3></h3>
+                    <a href="ehttps://docs.google.com/presentation/d/1oxu8jz_qMFNGybKuyrr_82h-ixBNTELAw4J04UEaf20/edit?usp=drive_link">Welcome G-Body Slides</a>
+                    <!-- Include a thumbnail or preview image if available -->
+                </div>
+            </div>
+        </section>
+
         <!-- Suggest a Resource Section -->
         <section id="suggest-resource">
             <h3>Suggest a Resource</h3>

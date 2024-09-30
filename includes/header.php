@@ -38,3 +38,5 @@
     </header>
 
 <script src="js/nav-button-script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiper3d.js"></script>
