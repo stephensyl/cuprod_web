@@ -102,7 +102,7 @@
             <div class="card-container">
                 <div class="card">
                 <h3></h3>
-                    <a href="ehttps://docs.google.com/presentation/d/1oxu8jz_qMFNGybKuyrr_82h-ixBNTELAw4J04UEaf20/edit?usp=drive_link">Welcome G-Body Slides</a>
+                    <a href="https://docs.google.com/presentation/d/1oxu8jz_qMFNGybKuyrr_82h-ixBNTELAw4J04UEaf20/edit?usp=drive_link">Welcome G-Body Slides</a>
                     <!-- Include a thumbnail or preview image if available -->
                 </div>
             </div>

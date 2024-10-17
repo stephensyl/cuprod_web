@@ -17,6 +17,10 @@
             <a href="https://soundcloud.com/cornellmusicproduction" title="Cornell Music Production" target="_blank" style="color: #cccccc; text-decoration: none;">Cornell Music Production</a> · <a href="https://soundcloud.com/cornellmusicproduction/sets/our-members-music"
                 title="Our members music" target="_blank" style="color: #cccccc; text-decoration: none;">Our members music</a>
         </div>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5NXCV2XAhpn0tBvsQHpJvi?utm_source=generator"
+             width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+             encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </main>
 </body>
 
