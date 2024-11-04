@@ -7,18 +7,25 @@ main {
     padding: 10px;
 }
 
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 h1 {
     color: #333;
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
-    font-family: 'Bebas Neue', sans-serif;
+font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 section {
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
@@ -27,14 +34,14 @@ section {
 p {
     font-size: 18px;
     color: #555;
-    font-family: 'Outfit', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 #joinus {
     list-style: disc;
     margin-left: 20px;
     padding-left: 20px;
-    font-family: 'Outfit', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 #Album {
@@ -179,6 +186,8 @@ a.cta-button {
     border-radius: 5px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+
 }
 
 a.cta-button:hover {
@@ -204,16 +213,22 @@ a.cta-button:hover {
 /* Lineup Styling */
 
 #lineup-intro h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     color: rgb(255, 38, 0);
     font-size: 70px;
     text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
+
 }
 
 .swiper-container-3d {
     width: 80%;
     height: 100%;
+    padding: 30px;
+    
 }
 
 .swiper-slide-3d {
@@ -225,6 +240,8 @@ a.cta-button:hover {
     align-items: center;
     padding: 20px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+
 }
 
 .artist-card {
@@ -292,7 +309,7 @@ a.cta-button:hover {
 }
 
 #resource-title p {
-    font-family: 'Outfit', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 8px;
     color: #333;
     font-size: 17px;
@@ -301,7 +318,7 @@ a.cta-button:hover {
 }
 
 #suggest-resource {
-    font-family: 'Outfit', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 8px;
     color: #333;
     font-size: 20px;

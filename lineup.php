@@ -6,16 +6,24 @@
     <main>
         <div id="lineup-intro">
             <h2>The Club Artists</h2>
+            <style>
+                p{
+                        padding: 80px;
+
+                }
+            </style>
             <p>Every year, we welcome a diverse group of individuals into our music production club.
                 From those just starting their musical journey to seasoned artists with an established fanbase,
                 our community is enriched by the talents and passions of our members.
                 Whether you're a beginner looking to learn the basics of music production or an experienced musician eager to share your skills and grow your audience, we are honored to have you join our ranks.
                 Together, we create a supportive environment where creativity flourishes, and everyone has the opportunity to develop their unique sound.
                 We are proud to introduce the following artists who have left their mark in our vibrant community.</p>
+                <br>
+                <h4>Our Artists:</h4>
         </div>
 
 
-        <h2>These are our Artists</h2>
+        
 
         <div class="swiper-container-3d">
             <div class="swiper-wrapper">

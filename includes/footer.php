@@ -11,6 +11,11 @@
                 </div>
             </div>
             <div class="col-md-4">
+            <style>
+        h4 {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
                     <h4>Back to Top</h4>
                     <a href="#top">
                         <div class="arrow-icon">
@@ -18,8 +23,6 @@
                             <span class="right-bar"></span></div>
                     </a>
 
-
                 </div>
-                <a href="https://lordicon.com/" class="footer-link">Icons by Lordicon.com</a>
         </div>
     </footer>
