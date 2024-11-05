@@ -158,6 +158,30 @@ h4 {
         margin-top: 40px;
     }
 }
+
+/* About Page */
+#eboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#chair, #creative, #club-relations {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+.eboard-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eboard-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 /* CSS for image hover effect */
 
 #Album img {
