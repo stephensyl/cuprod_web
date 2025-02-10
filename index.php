@@ -25,27 +25,79 @@
     </main>
 
     <div id="Album">
+    <div class="album-section">
+        <h2>Our Works</h2>
         <p id="albumtitle">VOLUME 1: THE CHRONICLES (Out now)</p>
-
-        <p id="albuminfo">Introducing "The Chronicles" VOLUME 1 by CMP - Cornell Music Production!
-            <br>
-
-            <p id="albuminfo">Released in May 2023, this extraordinary album is the result of a collective collaboration among the talented artists and producers within our club. It's a celebration of diversity, creativity, and genre-blurring musical innovation.</p>
-            <p id="albuminfo">"The Chronicles" VOLUME 1 is a sonic journey that transcends boundaries. From the electrifying beats of Drill to the catchy melodies of Pop and the experimental sounds of Alternative music, this album is a testament to the limitless possibilities
-                that music production offers.</p>
-            <p id="albuminfo">Have you had the chance to check out the Cornell Music Production album yet? If not, now's the time! Immerse yourself in the genre-blurring magic and discover a world of musical exploration. You can stream it on popular platforms like Spotify,
-                Apple Music, and YouTube. Tune in and let the music take you on an unforgettable ride.</p>
-
-            <div class = "image">
-                <img src="images/v1cover.JPEG" height="300" alt="">
-                <img src="images/poster1.JPEG" height="300" alt="">
-                <img src="images/poster2.JPEG" height="300" alt="">
-                <img src="images/poster3.JPEG" height="300" alt="">
-                <img src="images/poster4.JPEG" height="300" alt="">
-
+        <div class="album-grid">
+            <div class="album-item">
+                <a href="https://open.spotify.com/album/1CKE9ma4BRWQmLTLKYTmFU?si=_ISbQgouSfacRoaFP29zOw" class="album-link">
+                    <div class="album-cover">
+                        <img src="images/v1cover.JPEG" alt="Volume 1 Cover">
+                        <div class="play-overlay">
+                            <svg viewBox="0 0 24 24" width="50" height="50">
+                                <circle cx="12" cy="12" r="11" fill="white" opacity="0.9"/>
+                                <path d="M9 8l8 4-8 4V8z" fill="#333"/>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="album-item">
+                    <div class="album-cover">
+                        <img src="images/poster1.JPEG" >
+                    </div>
+                </a>
+            </div>
+            <div class="album-item">
+                    <div class="album-cover">
+                        <img src="images/poster4.JPEG" >
+                    </div>
+                </a>
+            </div>
+            <div class="album-item">
+                    <div class="album-cover">
+                        <img src="images/poster3.JPEG">
+                    </div>
+                </a>
             </div>
 
+            <!-- Additional album items would go here -->
+        </div>
+
     </div>
+
+    <div class="album-section">
+        <p id="albumtitle">VOLUME 2: Time Waits For No One (Out now)</p>
+        <div class="album-grid">
+            <div class="album-item">
+                <a href="https://open.spotify.com/album/54q4auaaJBplwLhUQZZZzY?si=ejC7LUHqQbKf9VRtqK0l3Q" class="album-link">
+                    <div class="album-cover">
+                        <img src="images/v2cover.webp" alt="Volume 2 Cover">
+                        <div class="play-overlay">
+                            <svg viewBox="0 0 24 24" width="50" height="50">
+                                <circle cx="12" cy="12" r="11" fill="white" opacity="0.9"/>
+                                <path d="M9 8l8 4-8 4V8z" fill="#333"/>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="album-item">
+                    <div class="album-cover">
+                        <img src="images/v2_viz2.JPG">
+                    </div>
+                </a>
+            </div>
+            <div class="album-item">
+                    <div class="album-cover">
+                        <img src="images/v2viz.JPG">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
     <?php include 'includes/footer.php';?>
 </body>

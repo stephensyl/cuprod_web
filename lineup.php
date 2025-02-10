@@ -82,6 +82,16 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-scrollbar"></div> -->
         </div> 
+        <div id="artistModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3 id="modal-artist-name"></h3>
+        <p id="modal-bio"></p>
+        <a id="modal-streaming-link" class="streaming-link" target="_blank">Listen on Spotify</a>
+    </div>
+</div>
+
+
 
     </main>
     <?php include 'includes/footer.php'; ?>
