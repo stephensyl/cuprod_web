@@ -765,7 +765,7 @@ a.footer-link:hover {
 /* Responsive website design for mobile devices */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
     /* Typography */
     h1 {
         font-size: 24px;
