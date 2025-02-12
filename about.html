@@ -26,11 +26,32 @@
                 <img src="images/new_tp_logo.PNG" alt="Cornell Music Production Logo">
             </div>
         </div>
+        <!-- Add this right after your left-section div in the header -->
+<div class="hamburger-menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<!-- Add this right before closing body tag -->
+<div class="mobile-nav">
+    <div class="mobile-nav-content">
+    <button id="homeBtnMobile" type="button" class="nav-link">Home</button>
+        <button id="lineupBtnMobile" type="button" class="nav-link">Lineup</button>
+        <button id="aboutBtnMobile" type="button" class="nav-link">About</button>
+        <button id="musicBtnMobile" type="button" class="nav-link">Music</button>
+        <button id="eventsBtnMobile" type="button" class="nav-link">Events</button>
+        <button id="contactBtnMobile" type="button" class="nav-link">Contact</button>
+        <button id="resourcesBtnMobile" type="button" class="nav-link">Resources</button>
+    </div>
+</div>
         <div class="middle-section">
             <h2>Cornell Music Production</h2>
         </div>
         <div class="right-section">
             <nav>
+            <button id="homeBtn" type="button" class="nav-link">Home</button>
+
                 <button id="lineupBtn" type="button" class="nav-link">Lineup</button>
                 <button id="aboutBtn" type="button" class="nav-link">About</button>
                 <button id="musicBtn" type="button" class="nav-link">Music</button>
