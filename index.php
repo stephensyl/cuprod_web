@@ -16,7 +16,7 @@
 
         </section>
         
-        <div class = "image">
+        <div class = "home-images">
         <img src="images/cmpgroup.jpg" alt="" height="340">
         <img src="images/cmpgroup2.jpg" alt="" height="340">
         <img src="images/cmpgroup3.jpg" alt="" height="340">

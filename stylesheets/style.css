@@ -25,7 +25,6 @@ font-family: "Poppins", sans-serif;
 
 section {
     background-color: #fff;
-    padding: 50px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
@@ -234,6 +233,14 @@ h4 {
 
     .col-md-4 {
         margin-top: 40px;
+    }
+
+    header .middle-section{
+        display: none;
+    }
+
+    header .right-section{
+        display:none;
     }
 }
 
@@ -704,59 +711,62 @@ a.footer-link:hover {
     background-color: #1ed760;
 }
 
-/* Responsive website design for mobile devices */
 
-@media screen and (max-width: 800px) {
-    header {
-        display: flex;
-        height: 55px;
-        justify-content: space-between;
-    }
+.mobile-nav {
+    display: none;}
 
-    .left-section .logo {
-        display: flex;
-        max-height: auto;
-        max-width: auto;
-        justify-self: center;
-    }
-
-    .middle-section {
-        display: none;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    #albumtitle {
-        font-size: 60px;
-    }
-
-    #albuminfo {
-        font-size: 16px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .card {
-        width: calc(100% - 40px);
-    }
-
-    .resource-container {
-        width: 100%;
-    }
-
-    .links {
-        padding: 10px;
-    }
-
-    .cta-button {
-        width: 100%;
-        text-align: center;
-    }
+.home-images{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.mobile-nav.active {
+    opacity: 1;
+    pointer-events: auto; 
+
+}
+
+.mobile-nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mobile-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: transform 0.3s ease;
+}
+/* Responsive website design for mobile devices */
+
+
 @media screen and (max-width: 600px) {
+    /* Typography */
     h1 {
         font-size: 24px;
     }
@@ -771,26 +781,147 @@ a.footer-link:hover {
         margin-right: 10px;
     }
 
+    /* Layout */
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card {
         width: calc(100% - 20px);
     }
 
+    .col-md-4 {
+        margin-top: 40px;
+    }
+
+    /* Components */
     .resource-container {
         padding: 10px;
     }
 
     .links {
+        justify-content: center;
         padding: 5px;
     }
 
-    .cta-button {
-        padding: 10px;
+    .cta-button, 
+    a.cta-button {
+        padding: 0px;
     }
 
-    form input, form textarea, form button {
+    form input, 
+    form textarea, 
+    form button {
         padding: 8px;
     }
 
+    .home-images {
+        display: none;
+    }
 
+    /* Header Navigation */
+    header .middle-section,
+    header .right-section {
+        display: none;
+    }
+
+    /* Hamburger Menu */
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 3.5%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 10px;
+        z-index: 1000;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+        transition: 0.4s;
+        border-radius: 3px;
+    }
+
+    /* Hamburger Animation */
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    /* Mobile Navigation */
+    .mobile-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .mobile-nav.active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .mobile-nav-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .mobile-nav .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .mobile-nav .nav-link:hover {
+        transform: scale(1.1);
+    }
     
+    #music-title{
+        font-size: 100px;
+    }
+    p {
+        font-size: 18px;
+        color: #555;
+        font-family: "Poppins", sans-serif;
+        padding-left: 20px;
+        padding-right: 8px;
+    }
 }

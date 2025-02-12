@@ -3,7 +3,7 @@
 
     <main>
         <div id="music-h">
-            <h1 id="music-title">Latest Music from Our Members </h1>
+            <h2 id="music-title">Latest Music from Our Members </h1>
                 
         </div>
         <!--Display the liked songs of the cmp sound cloud acc-->

@@ -137,3 +137,71 @@
   left: 0 !important;
   width: 100% !important;
 }
+
+.swiper-pagination {
+  display: none !important;
+}
+
+
+@media (max-width: 600px) {
+
+  .swiper-slide img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .swiper-slide {
+    font-size: 24px; /* Reduce font size */
+    padding: 10px;
+  }
+
+  .testosotto {
+    font-size: 30px; /* Adjust title size */
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .swiper-button-next {
+    right: 5px;
+  }
+
+  .swiper-button-prev {
+    left: 5px;
+  }
+
+  .swiper-slide-3d {
+    opacity: 0.7;
+  }
+
+  .swiper-slide-3d-active {
+    opacity: 1;
+  }
+
+  .artist-card .show-more {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .swiper-pagination {
+    display: none !important;
+}
+
+.swiper-slide {
+  filter: blur(0px);
+}
+
+  /* Adjust pagination position */
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    top: var(--swiper-pagination-top, 580px) !important;
+  }
+
+
+}
