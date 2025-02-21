@@ -30,6 +30,35 @@ section {
     margin-bottom: 20px;
 }
 
+/* the home page section of text */
+.joinus {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+
+}
+
+.joinus p,
+.joinus ul,
+.joinus li {
+    font-size: 17px; /* Adjust size as needed */
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.joinus h1{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    color: rgb(49, 49, 49);
+    font-size: 80px;
+    text-align: center;
+}
+
+
 p {
     font-size: 18px;
     color: #555;
@@ -43,16 +72,20 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
+
 #Album {
     background-color: #333;
-    margin: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 #Album h2{
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     color: whitesmoke;
-    font-size: 100px;
+    font-size: 60px;
     text-align: center;
 
 }
@@ -61,13 +94,13 @@ p {
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     color: gold;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
 }
 
 .album-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -138,10 +171,16 @@ p {
 
 /* footer */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+/* div.links {
+    background-color: #333;
+} */
 
 .container {
     width: 80%;
@@ -177,6 +216,11 @@ h4 {
     transition: transform 0.3s ease;
 }
 
+.links img{
+    width: 70px;
+    height: 70px;
+}
+
 .links a img:hover {
     transform: scale(1.1);
 }
@@ -192,6 +236,7 @@ h4 {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    color: #333;
 }
 
 .left-bar, .right-bar {
@@ -246,30 +291,67 @@ h4 {
 
 /* About Page */
 #eboard {
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: space-around;
-}
-.about {
-    font-family: "Poppins", sans-serif;
-    padding: 80px;
-}
-
-#chair, #creative, #club-relations {
-    flex: 1 1 30%;
-    margin: 10px;
-}
-
-.eboard-member {
     text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
     margin-bottom: 20px;
+    color: #333;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Styling for Each Member */
+.eboard-member {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
 }
 
 .eboard-member img {
-    width: 90px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #ddd;
 }
+
+.eboard-member h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.eboard-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Hover effect */
+.eboard-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
 
 /* CSS for image hover effect */
 
@@ -283,18 +365,20 @@ h4 {
     margin-left: 100px;
     margin-right: 100px;
 }
-
+.center-container {
+    text-align: center;
+}
 a.cta-button {
     display: inline-block;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
     transition: background-color 0.3s ease;
     font-family: "Poppins", sans-serif;
-
 }
 
 a.cta-button:hover {
@@ -322,18 +406,28 @@ a.cta-button:hover {
 #lineup-intro h2 {
     font-family: "Poppins", sans-serif;
     margin: 0;
-    color: rgb(255, 38, 0);
+    color: rgb(60, 60, 60);
     font-size: 70px;
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+
+}
+
+#lineup-intro p {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: rgb(45, 45, 45);
+    font-size: 20px;
+    text-align: center;
+    padding-left: 190px;
+    padding-right: 190px;
 
 
 }
 
+
+
 .swiper-container-3d {
-    width: 80%;
-    height: 100%;
+ 
     padding: 30px;
     
 }
@@ -348,7 +442,25 @@ a.cta-button:hover {
     padding: 20px;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    margin: auto;
 
+}
+
+#artists1{
+    background-color: rgba(244, 138, 0, 0);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interested{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .artist-card {
@@ -373,13 +485,14 @@ a.cta-button:hover {
 }
 
 .streaming-link {
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 50px;
     background-color: #007BFF;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+
 }
 
 .streaming-link:hover {
@@ -548,7 +661,6 @@ iframe {
     background-color: transparent;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
 
@@ -567,6 +679,7 @@ iframe {
     position: sticky;
     cursor: pointer;
     border-radius: 4px;
+    color: #333;
 }
 
 .left-bar {
@@ -625,7 +738,9 @@ a.footer-link:hover {
     color: #bbb;
 }
 
-
+h2a{
+    color: red;
+}
 .modal {
     display: none;
     position: fixed;
