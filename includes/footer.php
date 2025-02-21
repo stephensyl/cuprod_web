@@ -1,7 +1,6 @@
 <footer>
         <div class="container">
             <div class="row">
-                <h4>Connect with Us</h4>
                 <div class="links">
                     <a href="https://discord.gg/fMGttJUFDp"><img src="images/discord.png" alt="" height="100"> </a>
                     <a href="https://instagram.com/cornellmusicproduction"><img src="images/instagram.png" alt="" height="100"></a>
@@ -16,7 +15,6 @@
             font-family: 'Poppins', sans-serif;
         }
     </style>
-                    <h4>Back to Top</h4>
                     <a href="#top">
                         <div class="arrow-icon">
                             <span class="left-bar"></span>

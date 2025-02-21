@@ -46,7 +46,7 @@
     </div>
 </div>
         <div class="middle-section">
-            <h2>Cornell Music Production</h2>
+            <h2a>Cornell Music Production</h2a>
         </div>
         <div class="right-section">
             <nav>

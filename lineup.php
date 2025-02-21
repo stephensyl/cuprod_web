@@ -6,24 +6,19 @@
     <main>
         <div id="lineup-intro">
             <h2>The Club Artists</h2>
-            <style>
-                p{
-                        padding: 80px;
-
-                }
-            </style>
+        
             <p>Every year, we welcome a diverse group of individuals into our music production club.
                 From those just starting their musical journey to seasoned artists with an established fanbase,
                 our community is enriched by the talents and passions of our members.
                 Whether you're a beginner looking to learn the basics of music production or an experienced musician eager to share your skills and grow your audience, we are honored to have you join our ranks.
+                <br>
+                <br>
                 Together, we create a supportive environment where creativity flourishes, and everyone has the opportunity to develop their unique sound.
                 We are proud to introduce the following artists who have left their mark in our vibrant community.</p>
                 <br>
-                <h4>Our Artists:</h4>
-        </div>
-
-
-        
+                <br>
+                <br>
+                <section id="artists1"><h2>Our Artists:</h2>
 
         <div class="swiper-container-3d">
             <div class="swiper-wrapper">
@@ -68,13 +63,15 @@
                     </div>
                 </div>
             </div>
+<br>
+<br>
 
-        <h2> Apply to Join our Lineup</h2>
-
+    <div class="interested">
         <p> Are you interested in joining our community of artists? We are always looking for new members to join our club and share their unique sound with us. 
             Whether you are a beginner looking to learn the basics of music production or an experienced musician eager to grow your audience, we welcome you to apply to join our lineup. 
             To apply, please fill out the form below and <strong> submit a contact, artist name, spotify link and a picture to showcase yourself. </strong> We look forward to hearing from you!</p>
-        <a class="streaming-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPxegoL3H7tE3PUVxFPZ-9bsZVwbz1QxCvqhH2a7kJyouP6A/viewform?usp=sf_link">Apply to Join</a>
+        <br>
+            <a class="streaming-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPxegoL3H7tE3PUVxFPZ-9bsZVwbz1QxCvqhH2a7kJyouP6A/viewform?usp=sf_link">Apply to Join</a>
             <!-- Add Pagination -->
             <!-- <div class="swiper-pagination"></div> -->
             <!-- Add Navigation -->
@@ -82,6 +79,8 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-scrollbar"></div> -->
         </div> 
+
+        
         <div id="artistModal" class="modal">
     <div class="modal-content">
         <span class="close-modal">&times;</span>
@@ -91,7 +90,10 @@
     </div>
 </div>
 
+</section>
+        </div>
 
+       
 
     </main>
     <?php include 'includes/footer.php'; ?>
